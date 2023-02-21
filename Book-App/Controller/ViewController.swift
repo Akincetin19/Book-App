@@ -15,12 +15,14 @@ class ViewController: UIViewController {
         layout.scrollDirection = .vertical
         return layout
     }()
+    private let bookService = BookService()
     lazy var collectionView = BookCollectionView(frame: .zero, collectionViewLayout: layout)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
         //writeFirebase()
+        getBooks()
         setupCollectionView()
         setupSelectBookObserver()
         
@@ -42,7 +44,24 @@ class ViewController: UIViewController {
             let bookDetail = BookDetailPage()
             bookDetail.selectedBook = book
             self.navigationController?.pushViewController(bookDetail, animated: true)
+        }
+        collectionView.getNewBooks.bind {[weak self] bool in
+
+            guard let self = self else{return}
+            self.getBooks()
+        }
+    }
+    func getBooks() {
+        bookService.downloadBooks {[weak self] result in
             
+            guard let self = self else{return}
+            switch result {
+            case.failure(let error):
+                print(error.localizedDescription)
+            case.success(let data):
+                self.collectionView.books.append(contentsOf: data)
+                self.collectionView.reloadData()
+            }
         }
     }
     

@@ -11,16 +11,15 @@ import Firebase
 class BookCollectionView: UICollectionView {
     
     
-    private let bookService = BookService()
+    
     var bindableBook = Bindable<Book>()
-    private var books: [Book] = []
     
-    
+    var getNewBooks = Bindable<Bool>()
+    var books: [Book] = []
     
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
-        getBooks()
-        
+      
         delegate = self
         dataSource = self
         register(BookCell.self, forCellWithReuseIdentifier: "deneme")
@@ -28,19 +27,7 @@ class BookCollectionView: UICollectionView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    func getBooks() {
-        bookService.downloadBooks {[weak self] result in
-            
-            guard let self = self else{return}
-            switch result {
-            case.failure(let error):
-                print(error.localizedDescription)
-            case.success(let data):
-                self.books.append(contentsOf: data)
-                self.reloadData()
-            }
-        }
-    }
+    
     
 }
 extension BookCollectionView: UICollectionViewDelegate, UICollectionViewDataSource {
@@ -53,15 +40,12 @@ extension BookCollectionView: UICollectionViewDelegate, UICollectionViewDataSour
         let cell = dequeueReusableCell(withReuseIdentifier: "deneme", for: indexPath) as! BookCell
         cell.configureCell(book: books[indexPath.row])
         if(indexPath.row == books.count - 2) {
-            self.getBooks()
+            self.getNewBooks.value = true
         }
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        
         bindableBook.value = books[indexPath.row]
-        
     }
 }
 

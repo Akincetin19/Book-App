@@ -12,6 +12,8 @@ class MainTabbarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
         view.backgroundColor = .white
         lazy var homeScreen = ViewController()
         lazy var homeNavController = UINavigationController(rootViewController: homeScreen)

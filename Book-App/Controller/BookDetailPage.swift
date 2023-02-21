@@ -11,6 +11,7 @@ class BookDetailPage: UIViewController {
 
     
     var selectedBook: Book?
+    var control: Bool?
     
     lazy var descriptionLabel: UILabel = {
         let label = UILabel(frame: .zero)
@@ -32,7 +33,7 @@ class BookDetailPage: UIViewController {
     lazy var bookPriceLabel: UILabel = {
        
         let label = UILabel(frame: .zero)
-        label.text = "Fiyat - \(selectedBook?.Price ?? "")"
+        label.text = "Fiyat - \(selectedBook?.Price ?? "") TL"
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 40)
         return label
@@ -84,7 +85,7 @@ class BookDetailPage: UIViewController {
     
     fileprivate func configureBookAuthorLabel() {
      
-        bookAuthorLabel.text = "Yazar - \(bookAuthorLabel.text!) TL"
+        bookAuthorLabel.text = "Yazar - \(bookAuthorLabel.text!)"
         bookAuthorLabel.textColor = .blue
         bookAuthorLabel.anchor(top: bookImage.bottomAnchor, leading: contentView.leadingAnchor, bottom: nil, trailing: contentView.trailingAnchor, padding: .init(top: 16, left: 8, bottom: 0, right: 8))
         let gesture = UITapGestureRecognizer(target: self, action: #selector(authorClicked))
@@ -92,10 +93,15 @@ class BookDetailPage: UIViewController {
         bookAuthorLabel.addGestureRecognizer(gesture)
     }
     @objc func authorClicked(sender:UITapGestureRecognizer) {
-        print("author clicked")
         
-        // yazarın kitapları getirilecek
-        navigationController?.pushViewController(UIViewController(), animated: true)
+        guard let _ = control else {
+            let view = AuthorDetailScreen()
+            view.author = selectedBook?.Author
+            navigationController?.pushViewController(view, animated: true)
+            return
+        }
+        
+        
     }
     fileprivate func configureDescriptionLabel() {
         descriptionLabel.numberOfLines = 0

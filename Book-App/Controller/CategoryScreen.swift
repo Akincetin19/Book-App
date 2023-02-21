@@ -20,7 +20,6 @@ class CategoryScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         title = "Kategoriler"
         view.backgroundColor = .white
         view.addSubview(scrollView)
@@ -46,11 +45,23 @@ class CategoryScreen: UIViewController {
             case.success(let data):
                 data.forEach { category in
                     let button = self.createButton(categoryName: category)
+                    button.addTarget(self, action: #selector(self.categoryButtonClicked), for: .touchUpInside)
                     self.stackView.addArrangedSubview(button)
-                    
                 }
             }
         }
+    }
+    @objc fileprivate func categoryButtonClicked(button: UIButton) {
+        
+        let category = button.titleLabel?.text
+        guard let category = category else {
+            return
+        }
+        
+        let categoryDetailScreen = CategoryDetailScreen()
+        categoryDetailScreen.categoryName = category
+        navigationController?.pushViewController(categoryDetailScreen, animated: true)
+        
     }
     fileprivate func createButton(categoryName: String) -> UIButton {
         

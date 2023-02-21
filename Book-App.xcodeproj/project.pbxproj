@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		E724ED6729A503CB00DE3856 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED6629A503CB00DE3856 /* MainTabbarController.swift */; };
 		E724ED6929A5094A00DE3856 /* CategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED6829A5094A00DE3856 /* CategoryScreen.swift */; };
+		E724ED6B29A52E9C00DE3856 /* CategoryDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED6A29A52E9C00DE3856 /* CategoryDetailScreen.swift */; };
+		E724ED6D29A5385800DE3856 /* AuthorDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED6C29A5385800DE3856 /* AuthorDetailScreen.swift */; };
+		E724ED6F29A5688700DE3856 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED6E29A5688700DE3856 /* SignUpScreen.swift */; };
+		E724ED7129A568A000DE3856 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED7029A568A000DE3856 /* LoginScreen.swift */; };
+		E724ED7329A56F7900DE3856 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED7229A56F7900DE3856 /* CustomTextField.swift */; };
+		E724ED7529A57CF400DE3856 /* CustomLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED7429A57CF400DE3856 /* CustomLoginButton.swift */; };
+		E724ED7729A5846000DE3856 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED7629A5846000DE3856 /* AuthService.swift */; };
 		E790282529A3C2D30077E881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282429A3C2D30077E881 /* AppDelegate.swift */; };
 		E790282729A3C2D30077E881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282629A3C2D30077E881 /* SceneDelegate.swift */; };
 		E790282929A3C2D30077E881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282829A3C2D30077E881 /* ViewController.swift */; };
@@ -42,6 +49,13 @@
 /* Begin PBXFileReference section */
 		E724ED6629A503CB00DE3856 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 		E724ED6829A5094A00DE3856 /* CategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryScreen.swift; sourceTree = "<group>"; };
+		E724ED6A29A52E9C00DE3856 /* CategoryDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailScreen.swift; sourceTree = "<group>"; };
+		E724ED6C29A5385800DE3856 /* AuthorDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailScreen.swift; sourceTree = "<group>"; };
+		E724ED6E29A5688700DE3856 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		E724ED7029A568A000DE3856 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		E724ED7229A56F7900DE3856 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E724ED7429A57CF400DE3856 /* CustomLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginButton.swift; sourceTree = "<group>"; };
+		E724ED7629A5846000DE3856 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E790282129A3C2D30077E881 /* Book-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E790282429A3C2D30077E881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E790282629A3C2D30077E881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +149,10 @@
 				E790282829A3C2D30077E881 /* ViewController.swift */,
 				E790287329A422860077E881 /* BookDetailPage.swift */,
 				E724ED6829A5094A00DE3856 /* CategoryScreen.swift */,
+				E724ED6A29A52E9C00DE3856 /* CategoryDetailScreen.swift */,
+				E724ED6C29A5385800DE3856 /* AuthorDetailScreen.swift */,
+				E724ED6E29A5688700DE3856 /* SignUpScreen.swift */,
+				E724ED7029A568A000DE3856 /* LoginScreen.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +171,8 @@
 			children = (
 				E790286329A3E1430077E881 /* BookCell.swift */,
 				E790286129A3D8EB0077E881 /* BookCollectionView.swift */,
+				E724ED7229A56F7900DE3856 /* CustomTextField.swift */,
+				E724ED7429A57CF400DE3856 /* CustomLoginButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				E790287129A40E720077E881 /* BookService.swift */,
+				E724ED7629A5846000DE3856 /* AuthService.swift */,
 			);
 			path = FirebaseManager;
 			sourceTree = "<group>";
@@ -259,12 +280,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E790287629A423590077E881 /* Bindable.swift in Sources */,
+				E724ED6B29A52E9C00DE3856 /* CategoryDetailScreen.swift in Sources */,
 				E790287229A40E720077E881 /* BookService.swift in Sources */,
 				E790286629A3E9150077E881 /* Ext+UIView.swift in Sources */,
 				E790282929A3C2D30077E881 /* ViewController.swift in Sources */,
+				E724ED7129A568A000DE3856 /* LoginScreen.swift in Sources */,
+				E724ED7729A5846000DE3856 /* AuthService.swift in Sources */,
+				E724ED6F29A5688700DE3856 /* SignUpScreen.swift in Sources */,
+				E724ED6D29A5385800DE3856 /* AuthorDetailScreen.swift in Sources */,
+				E724ED7329A56F7900DE3856 /* CustomTextField.swift in Sources */,
 				E790287429A422860077E881 /* BookDetailPage.swift in Sources */,
 				E790286A29A409F20077E881 /* Book.swift in Sources */,
 				E724ED6729A503CB00DE3856 /* MainTabbarController.swift in Sources */,
+				E724ED7529A57CF400DE3856 /* CustomLoginButton.swift in Sources */,
 				E790286229A3D8EB0077E881 /* BookCollectionView.swift in Sources */,
 				E790282529A3C2D30077E881 /* AppDelegate.swift in Sources */,
 				E724ED6929A5094A00DE3856 /* CategoryScreen.swift in Sources */,
