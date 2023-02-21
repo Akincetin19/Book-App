@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E724ED6729A503CB00DE3856 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED6629A503CB00DE3856 /* MainTabbarController.swift */; };
+		E724ED6929A5094A00DE3856 /* CategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED6829A5094A00DE3856 /* CategoryScreen.swift */; };
 		E790282529A3C2D30077E881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282429A3C2D30077E881 /* AppDelegate.swift */; };
 		E790282729A3C2D30077E881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282629A3C2D30077E881 /* SceneDelegate.swift */; };
 		E790282929A3C2D30077E881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282829A3C2D30077E881 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E724ED6629A503CB00DE3856 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		E724ED6829A5094A00DE3856 /* CategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryScreen.swift; sourceTree = "<group>"; };
 		E790282129A3C2D30077E881 /* Book-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E790282429A3C2D30077E881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E790282629A3C2D30077E881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,8 +131,10 @@
 		E790286C29A40DE40077E881 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E724ED6629A503CB00DE3856 /* MainTabbarController.swift */,
 				E790282829A3C2D30077E881 /* ViewController.swift */,
 				E790287329A422860077E881 /* BookDetailPage.swift */,
+				E724ED6829A5094A00DE3856 /* CategoryScreen.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 				E790282929A3C2D30077E881 /* ViewController.swift in Sources */,
 				E790287429A422860077E881 /* BookDetailPage.swift in Sources */,
 				E790286A29A409F20077E881 /* Book.swift in Sources */,
+				E724ED6729A503CB00DE3856 /* MainTabbarController.swift in Sources */,
 				E790286229A3D8EB0077E881 /* BookCollectionView.swift in Sources */,
 				E790282529A3C2D30077E881 /* AppDelegate.swift in Sources */,
+				E724ED6929A5094A00DE3856 /* CategoryScreen.swift in Sources */,
 				E790282729A3C2D30077E881 /* SceneDelegate.swift in Sources */,
 				E790286429A3E1430077E881 /* BookCell.swift in Sources */,
 			);

@@ -47,4 +47,25 @@ class BookService {
         }
          
     }
+    func getCategories(completion: @escaping (Result<[String], Error>) -> ()) {
+        var categories: [String] = []
+        let query = Firestore.firestore().collection("Categories")
+        query.getDocuments { snapshot, error in
+            if let error = error {
+                print(error.localizedDescription)
+                completion(.failure(error))
+                return
+            }
+            guard let snapshot = snapshot else {return}
+            
+            let data = snapshot.documents
+            
+            data.forEach { item in
+                categories.append(item["category"] as? String ?? "")
+            }
+            completion(.success(categories))
+        }
+        
+        
+    }
 }

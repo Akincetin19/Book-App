@@ -20,9 +20,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        //writeFirebase()
         setupCollectionView()
         setupSelectBookObserver()
-        
         
     }
     fileprivate func setupView() {
@@ -74,10 +74,12 @@ class ViewController: UIViewController {
                         "bookDescription" : book.Description,
                         "bookPrice" : book.Price,
                         "imageUrl" : book.Url,
-                        "uid": uid]
+                        "uid": uid,
+                        "category": book.Category]
             firebase.addDocument(data: data)
         })
     }
      */
+     
 }
 

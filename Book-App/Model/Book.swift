@@ -15,6 +15,7 @@ struct Books: Decodable {
 struct Book:Decodable {
     
     var uid: String?
+    var Category: String?
     var BookName: String?
     var Author: String?
     var Description: String?

@@ -6,18 +6,21 @@
 //
 
 import UIKit
+import Firebase
 
 class BookCollectionView: UICollectionView {
     
     
     private let bookService = BookService()
-    
     var bindableBook = Bindable<Book>()
     private var books: [Book] = []
+    
+    
     
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
         getBooks()
+        
         delegate = self
         dataSource = self
         register(BookCell.self, forCellWithReuseIdentifier: "deneme")
@@ -34,11 +37,11 @@ class BookCollectionView: UICollectionView {
                 print(error.localizedDescription)
             case.success(let data):
                 self.books.append(contentsOf: data)
-                print(data.count)
                 self.reloadData()
             }
         }
     }
+    
 }
 extension BookCollectionView: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
