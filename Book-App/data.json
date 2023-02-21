@@ -1,0 +1,1093 @@
+{
+  "books": [
+    {
+      "BookName": "Kırmızı Pelerin",
+      "Author": "Gülseren Budayıcıoğlu",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002011675001-1.jpg",
+      "Price": "104"
+    },
+{
+      "BookName": "Günden Kalanlar",
+      "Author": " Kazuo Ishiguro",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000646692-1.jpg",
+      "Price": "32"
+    },
+{
+      "BookName": "1984",
+      "Author": "George Orwell",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000064038-1.jpg",
+      "Price": "27"
+    },
+{
+      "BookName": "Şeker Portakalı",
+      "Author": " Jose Mauro De Vasconcelos",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000064031-1.jpg",
+      "Price": "35"
+    },
+{
+      "BookName": "Kürk Mantolu Madonna",
+      "Author": "Sabahattin Ali",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000058245-1.jpg",
+      "Price": "48"
+    },
+{
+      "BookName": "Yaban",
+      "Author": "Yakup Kadri Karaosmanoğlu",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000061419-1.jpg",
+      "Price": "36"
+    },
+{
+      "BookName": "Bavula Sığmayan",
+      "Author": "Nermin Yıldırım",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002016767001-1.jpg",
+      "Price": "46"
+    },
+{
+      "BookName": "Saatleri Ayarlama Enstitüsü",
+      "Author": "Ahmet Hamdi Tanpınar",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000027135-1.jpg",
+      "Price": "88"
+    },
+{
+      "BookName": "Ekmek Kavgası",
+      "Author": "Orhan Kemal",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000259213-1.jpg",
+      "Price": "41"
+    },
+{
+      "BookName": "İçimizdeki Şeytan",
+      "Author": "Sabahattin Ali",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000058246-1.jpg",
+      "Price": "15"
+    },
+{
+      "BookName": "Kumarbaz",
+      "Author": "Fyodor Mihayloviç Dostoyevski",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000438745-1.jpg",
+      "Price": "16"
+    },
+{
+      "BookName": "Bir Bilim Adamının Romanı",
+      "Author": "Bir Bilim Adamının Romanı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000061471-1.jpg",
+      "Price": "58"
+    },
+{
+      "BookName": "Tehlikeli Oyunlar",
+      "Author": "Oğuz Atay",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000061603-1.jpg",
+      "Price": "80"
+    },
+{
+      "BookName": "Babamın Yeri",
+      "Author": "Annie Ernaux",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001956519001-1.jpg",
+      "Price": "19"
+    },
+{
+      "BookName": "Zamanın Kısa Tarihi",
+      "Author": "Stephen Hawking",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Populer Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000562120-1.jpg",
+      "Price": "56"
+    },
+{
+      "BookName": "İzafiyet Teorisi",
+      "Author": "Albert Einstein",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Fizik",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000061201-1.jpg",
+      "Price": "26"
+    },
+{
+      "BookName": "Dura Mater",
+      "Author": "Serkan Karaismailoğlu",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001934377001-1.jpg",
+      "Price": "77"
+    },
+{
+      "BookName": "Bilimin Büyüsü",
+      "Author": "Celal Şengör",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001792397001-1.jpg",
+      "Price": "32"
+    },
+{
+      "BookName": "Dakikalar İçinde Büyük Fikirler",
+      "Author": "Ian Crofton",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "",
+      "Price": "27"
+    },
+{
+      "BookName": "Kara Delikler",
+      "Author": "Stephen Hawking",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Astronomi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001718325001-1.jpg",
+      "Price": "30"
+    },
+{
+      "BookName": "Benim Gözümden Dünya",
+      "Author": "Albert Einstein",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Bilim Tarihi Ve Felsefesi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000288315-1.jpg",
+      "Price": "37"
+    },
+{
+      "BookName": "Yeni Dünyanın Cesur İnsanı",
+      "Author": "Sinan Canan",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001949500001-1.jpg",
+      "Price": "56"
+    },
+{
+      "BookName": "Değişen Beynim",
+      "Author": "Sinan Canan",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000669585-1.jpg",
+      "Price": "69"
+    },
+{
+      "BookName": "Evrenin Sırrı Sayılar",
+      "Author": "Engin Avcı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001960831001-1.jpg",
+      "Price": "123"
+    },
+{
+      "BookName": "Ergen Beyni",
+      "Author": "Amy Ellis Nutt",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001729457001-1.jpg",
+      "Price": "47"
+    },
+{
+      "BookName": "Sırrın Fiziği",
+      "Author": "Neşe Akan",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001916460001-1.jpg",
+      "Price": "63"
+    },
+{
+      "BookName": "Hawking-Aforizmalar",
+      "Author": "Stephen Hawking",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001749972001-1.jpg",
+      "Price": "17"
+    },
+{
+      "BookName": "Karanlık Bir Dünyada Bilimin Mum Isıgı",
+      "Author": "Carl Sagan",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Bilim",
+      "Kind": "Popüler Bilim",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001871102001-1.jpg",
+      "Price": "82"
+    },
+{
+      "BookName": "Nutuk - Gençler İçin Fotoğraflarla",
+      "Author": "Mustafa Kemal Atatürk",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000325204-1.jpg",
+      "Price": "36"
+    },
+{
+      "BookName": "Mustafa Kemal Atatürk",
+      "Author": "Mustafa Kemal Atatürk",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001755965001-1.jpg",
+      "Price": "8"
+    },
+{
+      "BookName": "Türklerin Tarihi - Orta Asya'nın Bozkırlarından Avrupa'nın Kapılarına",
+      "Author": " İlber Ortaylı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001998120001-1.jpg",
+      "Price": "34"
+    },
+{
+      "BookName": "Gazi Mustafa Kemal Atatürk",
+      "Author": "İlber Ortaylı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001740229001-1.jpg",
+      "Price": "61"
+    },
+{
+      "BookName": "Türkiye'nin Yakın Tarihi",
+      "Author": "İlber Ortaylı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001749407001-1.jpg",
+      "Price": "40"
+    },
+{
+      "BookName": "İlber Ortaylı Seyahatnamesi",
+      "Author": "İlber Ortaylı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001686477001-1.jpg",
+      "Price": "40"
+    },
+{
+      "BookName": "Milli Mücadele Tarihi 1908 - 1923",
+      "Author": "Halil İnalcık",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002007375001-1.jpg",
+      "Price": "40"
+    },
+{
+      "BookName": "Son Cüret",
+      "Author": "Yılmaz Özdil",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Politika",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001889645001-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Almanlar Neden Daha İyi Yapıyor: Gelişmiş Bir Ülkeden Notlar",
+      "Author": "John Kampfner",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Politika",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001960568001-1.jpg",
+      "Price": "58"
+    },
+{
+      "BookName": "Bu Ülke",
+      "Author": "Cemil Meriç",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000061673-1.jpg",
+      "Price": "69"
+    },
+{
+      "BookName": "Coğrafi Keşifler: Soykırım - Sömürgecilik - Kölecilik -Emperyalizm - Kapitalizm",
+      "Author": "Erol Mütercimler",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+     "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002011601001-1.jpg",
+      "Price": "85"
+    },
+{
+      "BookName": "Atatürk ve Demokratik Türkiye",
+      "Author": "Halil İnalcık",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001895877001-1.jpg",
+      "Price": "40"
+    },
+{
+      "BookName": "Uygarlığın Kökeni Sumerliler - 1",
+      "Author": "Muazzez İlmiye Çığ",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000251695-1.jpg",
+      "Price": "36"
+    },
+{
+      "BookName": "Hata Neredeydi?-Doğu'nun 300 Yıldır Cevabını Aradığı Soru",
+      "Author": "Bernard Lewis",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+     "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001863593001-1.jpg",
+      "Price": "34"
+    },
+{
+      "BookName": "Türklerin Altın Çağı",
+      "Author": "İlber Ortaylı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+     "Category": "Araştırma-Tarih",
+      "Kind": "Tarih",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001695406001-1.jpg",
+      "Price": "40"
+    },
+{
+      "BookName": "Horimiya 5.Cilt - Horisan ile Miyamurakun",
+      "Author": "Hero",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002013211001-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Seraph of the End 5-Kıyamet Meleği",
+      "Author": "Takaya Kagami",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001743652001-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Seraph of the End 9 - Kıyamet Meleği",
+      "Author": "Takaya Kagami",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001773481001-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Limit - 1. Cilt",
+      "Author": "Keiko Suenobu",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001939391001-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Bloodborne 3 - Kargaların Şarkısı",
+      "Author": "Ales Kot",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002004810001-1.jpg",
+      "Price": "55"
+    },
+{
+      "BookName": "Seraph of the End 6-Kıyamet Meleği",
+      "Author": "Takaya Kagami",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001755164001-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Mobuko'nun Aşkı",
+      "Author": "Akane Tamura",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002015916001-1.jpg",
+      "Price": "39"
+    },
+{
+      "BookName": "Death Note - Ölüm Defteri 5",
+      "Author": "Tsugumi Ooba",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000381121-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Death Note - Ölüm Defteri 1",
+      "Author": "Tsugumi Ooba",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000377210-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Death Note - Ölüm Defteri 7",
+      "Author": "Tsugumi Ooba",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çizgi Roman",
+      "Kind": "Manga",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000387485-1.jpg",
+      "Price": "28"
+    },
+{
+      "BookName": "Sevginin Gücü",
+      "Author": "Caroline Richards",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001853072001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Hayvanat Bahçesinde Uyku Zamanı",
+      "Author": "Sophie Schoenwald",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001925655001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Hep Hayır! Diyen Çocuk",
+      "Author": "Charlie Griffin",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001904383001-1.jpg",
+      "Price": "16"
+    },
+{
+      "BookName": "Küçük Kar Tanesi: Doğanın Eşsiz Hikayeleri-1",
+      "Author": "Suzanne Fossey",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001851767001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Uykusu Gelmeyen Porsuk",
+      "Author": "Constanze Von Kitzing",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001892432001-1.jpg",
+      "Price": "16"
+    },
+{
+      "BookName": "Tarçın'ın Kaybolan Havuçları",
+      "Author": "Andreas König",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001847670001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Utangaç Ayı Monti",
+      "Author": "Duncan Beedie",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001712740001-1.jpg",
+      "Price": "20"
+    },
+{
+      "BookName": "Her İstediği Olsun İsteyen Moli-Minik Adamlar Dizisi 4+",
+      "Author": "Julie Gassman",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001847644001-1.jpg",
+      "Price": "24"
+    },
+{
+      "BookName": "Yapraklarımı Kim Aldı?",
+      "Author": "Alice Hemming",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001921456001-1.jpg",
+      "Price": "19"
+    },
+{
+      "BookName": "Akıllı Parmak Çocuk - Eğitici Fındık Masallar",
+      "Author": "Kolektif",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001862793001-1.jpg",
+      "Price": "2"
+    },
+{
+      "BookName": "Hiç Hata Yapmayan Kız",
+      "Author": "Gary Rubinstein",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001904413001-1.jpg",
+      "Price": "24"
+    },
+{
+      "BookName": "Ay Perisi Luna",
+      "Author": "Özge Özder",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+     "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001996956001-1.jpg",
+      "Price": "37"
+    },
+{
+      "BookName": "Tarçın ile En İyi Arkadaşları",
+      "Author": "Andreas König",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Çokcuk ve Gençlik",
+      "Kind": "Okul Öncesi 6 Ay-5Yaş",
+      "Url": "18",
+      "Price": "18"
+    },
+{
+      "BookName": "Fakat Müzeyyen Bu Derin Bir Tutku",
+      "Author": "İlhami Algör",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000626619-1.jpg",
+      "Price": "19"
+    },
+{
+      "BookName": "Beyoğlu'nun En Güzel Abisi",
+      "Author": "Ahmet Ümit",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001852467001-1.jpg",
+      "Price": "55"
+    },
+{
+      "BookName": "En Hüzünlü Eylül",
+      "Author": "Osman Balcıgil",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Edebiyat",
+      "Kind": "Roman",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001876890001-1.jpg",
+      "Price": "69"
+    },
+{
+      "BookName": "Çürümenin Kitabı",
+      "Author": "Emil Michel Cioran",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000077396-1.jpg",
+      "Price": "51"
+    },
+{
+      "BookName": "İrade Terbiyesi",
+      "Author": " Jules Payot",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001858951001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Tanrılar Okulu",
+      "Author": "Stefano D'Anna",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Bilgelik",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000324077-1.jpg",
+      "Price": "90"
+    },
+{
+      "BookName": "Osho - Her Şeye Sahipsiniz Kendiniz Hariç!",
+      "Author": "Osho",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001885353001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Toplum Sözleşmesi - Hasan Ali Yücel Klasikleri",
+      "Author": "Jean - Jacques Rousseau",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000223943-1.jpg",
+      "Price": "13"
+    },
+{
+      "BookName": "İstediğin Bir Şey Olursa Bir Hayır Olmazsa Bin Hayır Ara",
+      "Author": "Hakan Mengüç",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001872065001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Var mısın ki Yok Olmaktan Korkuyorsun?",
+      "Author": "Mesud Topal",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001868909001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Devlet - Hasan Ali Yücel Klasikleri",
+      "Author": "Platon",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000204001-1.jpg",
+      "Price": "31"
+    },
+{
+      "BookName": "",
+      "Author": "",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "",
+      "Price": ""
+    },
+{
+      "BookName": "Yürümenin Felsefesi",
+      "Author": "Frederic Gros",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001686744001-1.jpg",
+      "Price": "36"
+    },
+{
+      "BookName": "Yürümenin Felsefesi",
+      "Author": "Frederic Gros",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001686744001-1.jpg",
+      "Price": "36"
+    },
+{
+      "BookName": "Her İnsan Gördüğü Rüyanın Tabiridir-İnsan Ruhuna Derin Bir Yolculuk",
+      "Author": "Sigmund Freud",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001869421001-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Ethica",
+      "Author": "Benedictus De Spinoza",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000625847-1.jpg",
+      "Price": "78"
+    },
+{
+      "BookName": "Göğü Delen Adam",
+      "Author": "Erich Scheurmann",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000065342-1.jpg",
+      "Price": "20"
+    },
+{
+      "BookName": "Tarih Tasarımı",
+      "Author": "Robin George Collingwood",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000246832-1.jpg",
+      "Price": "54"
+    },
+{
+      "BookName": "Yaratma Cesareti",
+      "Author": "Rollo May",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000068248-1.jpg",
+      "Price": "42"
+    },
+{
+      "BookName": "Warren Buffett: Para İçin Çalışmıyorum",
+      "Author": "Warren Buffett",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001932649001-1.jpg",
+      "Price": "17"
+    },
+{
+      "BookName": "De ki İşte",
+      "Author": "Oruç Aruoba",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000057126-1.jpg",
+      "Price": "40"
+    },
+{
+      "BookName": "Anka'nın Kanatları",
+      "Author": "Çağrı Dörter",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001858328001-1.jpg",
+      "Price": "39"
+    },
+{
+      "BookName": "İçsel Huzur İyi Yaşamın Kapısını Açar",
+      "Author": "Epiktetos",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Felsefe",
+      "Kind": "Felsefe Bilimi",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001625241002-1.jpg",
+      "Price": "29"
+    },
+{
+      "BookName": "Şimdiki Çocuklar Harika",
+      "Author": "Aziz Nesin",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000193784-1.jpg",
+      "Price": "38"
+    },
+{
+      "BookName": "Tarihin Seyrini Değiştiren Liderler - Mizahi Anlatım",
+      "Author": "Yusuf Kayaalp",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001998611001-1.jpg",
+      "Price": "58"
+    },
+{
+      "BookName": "The Playbook-Oyunun El Kitabı",
+      "Author": "Barney Stinson , Matt Kuhn",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001857573001-1.jpg",
+      "Price": "31"
+    },
+{
+      "BookName": "Yaşar Ne Yaşar Ne Yaşamaz",
+      "Author": "Aziz Nesin",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000187061-1.jpg",
+      "Price": "42"
+    },
+{
+      "BookName": "Benim de Söyleyeceklerim Var - Cilt 2",
+      "Author": "Umut Sarıkaya",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001991087001-1.jpg",
+      "Price": "33"
+    },
+{
+      "BookName": "Uykusuz Dergisi Cilt 50",
+      "Author": "Kolektif",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0002005275001-1.jpg",
+      "Price": "23"
+    },
+{
+      "BookName": "Fırat-Bana Mı Gülüyonuz?",
+      "Author": "Uğur Gülsoy",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001840672001-1.jpg",
+      "Price": "35"
+    },
+{
+      "BookName": "Karikatür Kitabı",
+      "Author": "Behiç Ak",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000389993-1.jpg",
+      "Price": "55"
+    },
+{
+      "BookName": "Gereksiz Taramalardan Kaçınamadım",
+      "Author": "Cihan Demirci",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000359863-1.jpg",
+      "Price": "8"
+    },
+{
+      "BookName": "Fırat-Canım Sıkılıyo",
+      "Author": "Uğur Gürsoy",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001820005001-1.jpg",
+      "Price": "35"
+    },
+{
+      "BookName": "Damda Deli Var",
+      "Author": "Aziz Nesin",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000169528-1.jpg",
+      "Price": "35"
+    },
+{
+      "BookName": "Fırat-Kotum Yıkanmasaydı",
+      "Author": "Uğur Gürsoy",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001820004001-1.jpg",
+      "Price": "35"
+    },
+{
+      "BookName": "Zübük - Kağnı Gölgesindeki İt",
+      "Author": "Aziz Nesin",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000191648-1.jpg",
+      "Price": "40"
+    },
+{
+      "BookName": "Kendimi Durduracak Değilim 2",
+      "Author": "Fırat Budacı",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000431229-1.jpg",
+      "Price": "13"
+    },
+{
+      "BookName": "Nasrettin Hoca Fıkraları",
+      "Author": "Göktürk Ömer Çakır",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000726528-1.jpg",
+      "Price": "5"
+    },
+{
+      "BookName": "Aman Ne Komik",
+      "Author": "Emrah Ablak",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000313124-1.jpg",
+      "Price": "13"
+    },
+{
+      "BookName": "Güldür Güldür Fıkralar",
+      "Author": "Erol Altun",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Fıkra",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000678603-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Karikatürler 2",
+      "Author": "Yiğit Özgür",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Mizah",
+      "Kind": "Mizah Romanı - Öykü",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001792994001-1.jpg",
+      "Price": "66"
+    },
+{
+      "BookName": "Romeo ve Juliet - Hasan Ali Yücel Klasikleri",
+      "Author": "William Shakespeare",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000324159-1.jpg",
+      "Price": "14"
+    },
+{
+      "BookName": "Hamlet - Hasan Ali Yücel Klasikleri",
+      "Author": "William Shakespeare",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000268185-1.jpg",
+      "Price": "16"
+    },
+{
+      "BookName": "Bir Yaz Gecesi Rüyası - Hasan Ali Yücel Klasikleri",
+      "Author": "William Shakespeare",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000391428-1.jpg",
+      "Price": "12"
+    },
+{
+      "BookName": "Cimri - Hasan Ali Yücel Klasikleri",
+      "Author": "Moliere",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000217814-1.jpg",
+      "Price": "14"
+    },
+{
+      "BookName": "Venedik Taciri - Hasan Ali Yücel Klasikleri",
+      "Author": "William Shakespeare",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000386779-1.jpg",
+      "Price": "16"
+    },
+{
+      "BookName": "Hırçın Kız - Hasan Ali Yücel Klasikleri",
+      "Author": " William Shakespeare",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000405307-1.jpg",
+      "Price": "18"
+    },
+{
+      "BookName": "Martı",
+      "Author": "Anton Pavloviç Çehov",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000591726-1.jpg",
+      "Price": "10"
+    },
+{
+      "BookName": "Oyunlarla Yaşayanlar",
+      "Author": "Oğuz Atay",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000061604-1.jpg",
+      "Price": "27"
+    },
+{
+      "BookName": "Vanya Dayı",
+      "Author": "Anton Pavloviç Çehov",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000598954-1.jpg",
+      "Price": "10"
+    },
+{
+      "BookName": "Kapıların Dışında",
+      "Author": "Wolfgang Borchert",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001696904001-1.jpg",
+      "Price": "27"
+    },
+{
+      "BookName": "Dr. Faustus",
+      "Author": "Cristopher Marlowe",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001782876001-1.jpg",
+      "Price": "32"
+    },
+{
+      "BookName": "Şiirsel Beden - Yaratıcı Tiyatro Eğitimi",
+      "Author": "Jacquer Lecoq",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000637799-1.jpg",
+      "Price": "55"
+    },
+{
+      "BookName": "Başlangıcından Bu Yana İnsanlık",
+      "Author": "Turan Dursun",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0001799112001-1.jpg",
+      "Price": "19"
+    },
+{
+      "BookName": "Dünden Bugüne Tiyatro Düşüncesi",
+      "Author": "Sevda Şener",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "Category": "Sanat-Tasarım",
+      "Kind": "Tiyatro",
+      "Url": "https://i.dr.com.tr/cache/500x400-0/originals/0000000154706-1.jpg",
+      "Price": "76"
+    }
+  ]
+}
