@@ -13,6 +13,7 @@ class CartTableView: UITableView {
         super.init(frame: frame, style: style)
         register(TableHeader.self, forHeaderFooterViewReuseIdentifier: "TableHeader")
         register(TableFooter.self, forHeaderFooterViewReuseIdentifier: "TableFooter")
+        register(CartCell.self, forCellReuseIdentifier: "cartCell")
         
         dataSource = self
         delegate = self
@@ -28,6 +29,10 @@ extension CartTableView: UITableViewDelegate, UITableViewDataSource {
         return 20
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+    }
+     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cartCell") as? CartCell else{return UITableViewCell()}

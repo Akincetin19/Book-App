@@ -22,7 +22,7 @@ class BookCollectionView: UICollectionView {
       
         delegate = self
         dataSource = self
-        register(BookCell.self, forCellWithReuseIdentifier: "deneme")
+        register(BookCell.self, forCellWithReuseIdentifier: "bookCell")
     }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -37,7 +37,7 @@ extension BookCollectionView: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
-        let cell = dequeueReusableCell(withReuseIdentifier: "deneme", for: indexPath) as! BookCell
+        let cell = dequeueReusableCell(withReuseIdentifier: "bookCell", for: indexPath) as! BookCell
         
         cell.configureCell(book: books[indexPath.row])
         if(indexPath.row == books.count - 2) {
