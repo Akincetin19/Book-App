@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
+        
         if(Auth.auth().currentUser != nil)
         {
             window.rootViewController = MainTabbarController()
@@ -26,9 +27,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let navController = UINavigationController(rootViewController: LoginScreen())
             window.rootViewController = navController
         }
-        
-        
-        
         window.makeKeyAndVisible()
         self.window = window
     }

@@ -12,8 +12,6 @@ class MainTabbarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
         view.backgroundColor = .white
         lazy var homeScreen = ViewController()
         lazy var homeNavController = UINavigationController(rootViewController: homeScreen)
@@ -25,7 +23,7 @@ class MainTabbarController: UITabBarController {
         profileScreenNavController.tabBarItem.image = UIImage(systemName: "person")
         profileScreenNavController.tabBarItem.selectedImage = UIImage(systemName: "person.fill")
         
-        lazy var cartSrenn = UIViewController()
+        lazy var cartSrenn = CartScreen()
         lazy var cartScreenNavController = UINavigationController(rootViewController: cartSrenn)
         cartScreenNavController.tabBarItem.image = UIImage(systemName: "cart")
         cartScreenNavController.tabBarItem.selectedImage = UIImage(systemName: "cart.fill")

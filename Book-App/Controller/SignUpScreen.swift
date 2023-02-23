@@ -22,6 +22,7 @@ class SignUpScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title  = "Kayıt Ol"
         nameTextField.keyboardType = .emailAddress
         passwordTextField.isSecureTextEntry = true
 
@@ -46,14 +47,21 @@ class SignUpScreen: UIViewController {
             hud.dismiss(afterDelay: 2)
         }
         else {
-            //kullanıcı bilgilerini firestore kayıt et
-            AuthService.shared.signIn(email: emailTextField.text!, password: passwordTextField.text!)
+            let hud = JGProgressHUD(style: .dark)
+            hud.textLabel.text = "Kaydınız Oluşturuluyor"
+            hud.show(in: self.view)
+            
+            
+            let user = User(name: nameTextField.text!, surname: lastNameTextField.text!, email: emailTextField.text!)
+            AuthService.shared.signIn(user: user, password: passwordTextField.text!) {[weak self] error in
+                
+                guard let self = self else{return}
+                hud.dismiss()
+                self.makeAlert(view: self, error: error)
+            }
+            hud.textLabel.text = "Kaydınız Oluşturuldu"
+            hud.dismiss(afterDelay: 2)
+            navigationController?.popViewController(animated: true)
         }
-    }
-    func makeAlert(view: UIViewController, error: Error) {
-        let dialogMessage = UIAlertController(title: "Hata", message: error.localizedDescription, preferredStyle: .alert)
-        let ok = UIAlertAction(title: "Tamam", style: .default)
-        dialogMessage.addAction(ok)
-        view.present(dialogMessage, animated: true, completion: nil)
     }
 }

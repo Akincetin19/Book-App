@@ -13,7 +13,7 @@ class BookCollectionView: UICollectionView {
     
     
     var bindableBook = Bindable<Book>()
-    
+    var bindBook = Bindable<Book>()
     var getNewBooks = Bindable<Bool>()
     var books: [Book] = []
     
@@ -38,9 +38,14 @@ extension BookCollectionView: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
         let cell = dequeueReusableCell(withReuseIdentifier: "deneme", for: indexPath) as! BookCell
+        
         cell.configureCell(book: books[indexPath.row])
         if(indexPath.row == books.count - 2) {
             self.getNewBooks.value = true
+        }
+        cell.bind.bind {[weak self] book in
+            guard let self = self, let book = book else {return}
+            self.bindBook.value = book
         }
         return cell
     }

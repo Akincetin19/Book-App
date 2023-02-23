@@ -7,11 +7,14 @@
 
 import UIKit
 import SDWebImage
+import Firebase
+import JGProgressHUD
 
 class BookCell: UICollectionViewCell {
     
     
     private var book: Book?
+    var bind = Bindable<Book>()
     let imageView = UIImageView(image: UIImage(named: "book2")?.withRenderingMode(.alwaysOriginal))
     
     let bookNameLabel: UILabel = {
@@ -85,11 +88,6 @@ class BookCell: UICollectionViewCell {
         
     }
     @objc fileprivate func addBasket() {
-        guard let book = self.book else {
-            return
-        }
-        print(book.BookName!)
-        print("xx")
+        bind.value = book
     }
-    
 }

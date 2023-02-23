@@ -21,11 +21,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        title = "Ana Sayfa"
         //writeFirebase()
         getBooks()
         setupCollectionView()
         setupSelectBookObserver()
+        addBasketButtonClickedFromCollectionViewCell()
         
+    }
+    fileprivate func addBasketButtonClickedFromCollectionViewCell() {
+        collectionView.bindBook.bind {[weak self] book in
+            guard let self = self, let book = book else {return}
+            UserService.shared.addShoppingCart(book: book)
+            self.makeInfoAlert(view: self, info: "", title: "Ürün Sepetinize Eklendi")
+            
+        }
     }
     fileprivate func setupView() {
         view.backgroundColor = .white

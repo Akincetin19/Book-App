@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JGProgressHUD
 
 class LoginScreen: UIViewController {
 
@@ -21,7 +22,7 @@ class LoginScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Giriş Yap"
         view.backgroundColor = .white
         view.addSubview(loginStackView)
         
@@ -29,11 +30,38 @@ class LoginScreen: UIViewController {
         loginStackView.axis = .vertical
         loginStackView.spacing = 20
         signInButton.addTarget(self, action: #selector(goToSignInPage), for: .touchUpInside)
+        logInButton.addTarget(self, action: #selector(login), for: .touchUpInside)
+        passwordTextField.isSecureTextEntry = true
         
     }
     @objc fileprivate func goToSignInPage() {
         
         navigationController?.pushViewController(SignUpScreen(), animated: true)
+    }
+    @objc fileprivate func login() {
         
+        let isFormValid = emailTextField.text?.isEmpty == false &&
+        passwordTextField.text?.isEmpty == false
+        
+        if(!isFormValid) {
+            let hud = JGProgressHUD(style: .dark)
+            hud.textLabel.text = "Lütfen Tüm alanları Doldurunuz"
+            hud.show(in: self.view)
+            hud.dismiss(afterDelay: 2)
+        }
+        else {
+            let hud = JGProgressHUD(style: .dark)
+            hud.textLabel.text = "Giriş Yapılıyor"
+            hud.show(in: self.view)
+            
+            AuthService.shared.login(email: emailTextField.text!, password: passwordTextField.text!) { error in
+                hud.dismiss()
+                self.makeAlert(view: self, error: error)
+            }
+            hud.dismiss()
+            let tabBar = MainTabbarController()
+            tabBar.modalPresentationStyle = .fullScreen
+            present(tabBar, animated: true)
+        }
     }
 }

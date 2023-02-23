@@ -44,6 +44,14 @@
 		E790287229A40E720077E881 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790287129A40E720077E881 /* BookService.swift */; };
 		E790287429A422860077E881 /* BookDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790287329A422860077E881 /* BookDetailPage.swift */; };
 		E790287629A423590077E881 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790287529A423590077E881 /* Bindable.swift */; };
+		E7D5BDF129A6C7F300EAE1FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDF029A6C7F300EAE1FF /* User.swift */; };
+		E7D5BDF329A6CA0600EAE1FF /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDF229A6CA0600EAE1FF /* Ext+UIViewController.swift */; };
+		E7D5BDF529A6D80D00EAE1FF /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDF429A6D80D00EAE1FF /* UserService.swift */; };
+		E7D5BDF929A6DB5900EAE1FF /* CartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDF829A6DB5900EAE1FF /* CartScreen.swift */; };
+		E7D5BDFB29A6DC9F00EAE1FF /* CartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDFA29A6DC9F00EAE1FF /* CartTableView.swift */; };
+		E7D5BDFD29A6DD9C00EAE1FF /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDFC29A6DD9C00EAE1FF /* CartCell.swift */; };
+		E7D5BDFF29A6EB7F00EAE1FF /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDFE29A6EB7F00EAE1FF /* TableViewHeader.swift */; };
+		E7D5BE0129A6EB9900EAE1FF /* TableViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BE0029A6EB9900EAE1FF /* TableViewFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +80,14 @@
 		E790287129A40E720077E881 /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
 		E790287329A422860077E881 /* BookDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailPage.swift; sourceTree = "<group>"; };
 		E790287529A423590077E881 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		E7D5BDF029A6C7F300EAE1FF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E7D5BDF229A6CA0600EAE1FF /* Ext+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
+		E7D5BDF429A6D80D00EAE1FF /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		E7D5BDF829A6DB5900EAE1FF /* CartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreen.swift; sourceTree = "<group>"; };
+		E7D5BDFA29A6DC9F00EAE1FF /* CartTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableView.swift; sourceTree = "<group>"; };
+		E7D5BDFC29A6DD9C00EAE1FF /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		E7D5BDFE29A6EB7F00EAE1FF /* TableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		E7D5BE0029A6EB9900EAE1FF /* TableViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +146,7 @@
 				E790286529A3E9150077E881 /* Ext+UIView.swift */,
 				E790286729A409960077E881 /* data.json */,
 				E790287529A423590077E881 /* Bindable.swift */,
+				E7D5BDF229A6CA0600EAE1FF /* Ext+UIViewController.swift */,
 			);
 			path = "Book-App";
 			sourceTree = "<group>";
@@ -138,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				E790286929A409F20077E881 /* Book.swift */,
+				E7D5BDF029A6C7F300EAE1FF /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +171,7 @@
 				E724ED6C29A5385800DE3856 /* AuthorDetailScreen.swift */,
 				E724ED6E29A5688700DE3856 /* SignUpScreen.swift */,
 				E724ED7029A568A000DE3856 /* LoginScreen.swift */,
+				E7D5BDF829A6DB5900EAE1FF /* CartScreen.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +192,10 @@
 				E790286129A3D8EB0077E881 /* BookCollectionView.swift */,
 				E724ED7229A56F7900DE3856 /* CustomTextField.swift */,
 				E724ED7429A57CF400DE3856 /* CustomLoginButton.swift */,
+				E7D5BDFA29A6DC9F00EAE1FF /* CartTableView.swift */,
+				E7D5BDFC29A6DD9C00EAE1FF /* CartCell.swift */,
+				E7D5BDFE29A6EB7F00EAE1FF /* TableViewHeader.swift */,
+				E7D5BE0029A6EB9900EAE1FF /* TableViewFooter.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +205,7 @@
 			children = (
 				E790287129A40E720077E881 /* BookService.swift */,
 				E724ED7629A5846000DE3856 /* AuthService.swift */,
+				E7D5BDF429A6D80D00EAE1FF /* UserService.swift */,
 			);
 			path = FirebaseManager;
 			sourceTree = "<group>";
@@ -280,14 +304,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E790287629A423590077E881 /* Bindable.swift in Sources */,
+				E7D5BDF929A6DB5900EAE1FF /* CartScreen.swift in Sources */,
 				E724ED6B29A52E9C00DE3856 /* CategoryDetailScreen.swift in Sources */,
 				E790287229A40E720077E881 /* BookService.swift in Sources */,
+				E7D5BDFF29A6EB7F00EAE1FF /* TableViewHeader.swift in Sources */,
 				E790286629A3E9150077E881 /* Ext+UIView.swift in Sources */,
 				E790282929A3C2D30077E881 /* ViewController.swift in Sources */,
+				E7D5BDFD29A6DD9C00EAE1FF /* CartCell.swift in Sources */,
 				E724ED7129A568A000DE3856 /* LoginScreen.swift in Sources */,
+				E7D5BDF529A6D80D00EAE1FF /* UserService.swift in Sources */,
 				E724ED7729A5846000DE3856 /* AuthService.swift in Sources */,
 				E724ED6F29A5688700DE3856 /* SignUpScreen.swift in Sources */,
+				E7D5BDF129A6C7F300EAE1FF /* User.swift in Sources */,
+				E7D5BDFB29A6DC9F00EAE1FF /* CartTableView.swift in Sources */,
 				E724ED6D29A5385800DE3856 /* AuthorDetailScreen.swift in Sources */,
+				E7D5BE0129A6EB9900EAE1FF /* TableViewFooter.swift in Sources */,
 				E724ED7329A56F7900DE3856 /* CustomTextField.swift in Sources */,
 				E790287429A422860077E881 /* BookDetailPage.swift in Sources */,
 				E790286A29A409F20077E881 /* Book.swift in Sources */,
@@ -296,6 +327,7 @@
 				E790286229A3D8EB0077E881 /* BookCollectionView.swift in Sources */,
 				E790282529A3C2D30077E881 /* AppDelegate.swift in Sources */,
 				E724ED6929A5094A00DE3856 /* CategoryScreen.swift in Sources */,
+				E7D5BDF329A6CA0600EAE1FF /* Ext+UIViewController.swift in Sources */,
 				E790282729A3C2D30077E881 /* SceneDelegate.swift in Sources */,
 				E790286429A3E1430077E881 /* BookCell.swift in Sources */,
 			);
