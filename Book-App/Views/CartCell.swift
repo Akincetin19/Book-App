@@ -68,7 +68,7 @@ class CartCell: UITableViewCell {
         bookAuthorNameLabel.frame = CGRect(x: bookNameLabel.frame.minX, y: bookNameLabel.frame.maxY, width: 200, height: 50)
         bookPriceLabel.frame = CGRect(x: bookAuthorNameLabel.frame.minX, y: bookAuthorNameLabel.frame.maxY, width: 100, height: 50)
         
-        
+        print("fdffsdf")
     }
     
     required init?(coder: NSCoder) {
