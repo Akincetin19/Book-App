@@ -70,4 +70,41 @@ class UserService {
             path.document(userUid!).collection("Shopping-Cart").document(book.uid!).delete()
         }
     }
+    func isFavorited(book: Book, completion: @escaping (Bool) -> ()) {
+        
+        let favoritedPath = path.document(userUid!).collection("Favorited")
+        favoritedPath.document(book.uid!).getDocument { query, error in
+            if let error = error {
+                return
+            }
+            guard let query = query else {return}
+            let data = query.data()
+            guard let data = data else{
+                completion(false)
+                return
+            }
+            
+            completion(true)
+        }
+    }
+    func removeFromFavorited(book: Book) {
+        
+        let favoritedPath = path.document(userUid!).collection("Favorited")
+        favoritedPath.document(book.uid!).getDocument { query, error in
+            if let error = error {
+                return
+            }
+            guard let query = query else {return}
+            let data = query.data()
+            guard let data = data else{
+                return
+            }
+            favoritedPath.document(book.uid!).delete()
+        }
+    }
+    func addFavoritedBook(book: Book) {
+        guard let userUid = userUid else {return}
+        let data = ["uid": book.uid,"url": book.Url, "name": book.BookName, "author": book.Author,"bookPrice": book.Price]
+        path.document(userUid).collection("Favorited").document(book.uid!).setData(data as [String : Any])
+    }
 }

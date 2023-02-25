@@ -19,7 +19,7 @@ class MainTabbarController: UITabBarController {
         homeNavController.tabBarItem.selectedImage = UIImage(systemName: "house.fill")
         homeNavController.title = "Ana Sayfa"
         
-        lazy var profileSrenn = UIViewController()
+        lazy var profileSrenn = ProfileScreen()
         lazy var profileScreenNavController = UINavigationController(rootViewController: profileSrenn)
         profileScreenNavController.tabBarItem.image = UIImage(systemName: "person")
         profileScreenNavController.tabBarItem.selectedImage = UIImage(systemName: "person.fill")

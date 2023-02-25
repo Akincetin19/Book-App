@@ -12,6 +12,7 @@ class BookDetailPage: UIViewController {
     
     var selectedBook: Book?
     var control: Bool?
+    var isFavorited: Bool = true
     
     lazy var descriptionLabel: UILabel = {
         let label = UILabel(frame: .zero)
@@ -66,6 +67,7 @@ class BookDetailPage: UIViewController {
         configureBookAuthorLabel()
         configureBookPriceLabel()
         configureAddBasketButton()
+        configureFavoritedbutton()
     }
     
     fileprivate func configureView() {
@@ -101,8 +103,6 @@ class BookDetailPage: UIViewController {
             navigationController?.pushViewController(view, animated: true)
             return
         }
-        
-        
     }
     fileprivate func configureDescriptionLabel() {
         descriptionLabel.numberOfLines = 0
@@ -155,8 +155,30 @@ class BookDetailPage: UIViewController {
         view.addSubview(border)
         border.anchor(top: view.safeAreaLayoutGuide.topAnchor, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor, size: .init(width: 0, height: 1))
         title = selectedBook?.BookName
-        let heart = UIBarButtonItem(image: UIImage(systemName: "heart.fill"), style: .plain, target: self, action: nil)
-        let search = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: nil)
-        navigationItem.rightBarButtonItems = [heart, search]
+        let heart = UIBarButtonItem(image: UIImage(systemName: "heart"), style: .plain, target: self, action: #selector(favoritedClicked))
+        navigationItem.rightBarButtonItem = heart
+    }
+    @objc func favoritedClicked() {
+        
+        if(!isFavorited) {
+            self.navigationItem.rightBarButtonItem?.image = UIImage(systemName: "heart.fill")
+            UserService.shared.addFavoritedBook(book: selectedBook!)
+        }
+        else{
+            self.navigationItem.rightBarButtonItem?.image = UIImage(systemName: "heart")
+            UserService.shared.removeFromFavorited(book: selectedBook!)
+        }
+        configureFavoritedbutton()
+    }
+    func configureFavoritedbutton() {
+        UserService.shared.isFavorited(book: selectedBook!) { flag in
+            if(flag) {
+                self.isFavorited = true
+            }
+            else {
+                
+                self.isFavorited = false
+            }
+        }
     }
 }
