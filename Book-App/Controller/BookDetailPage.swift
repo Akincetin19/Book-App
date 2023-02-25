@@ -80,7 +80,8 @@ class BookDetailPage: UIViewController {
         
     }
     @objc fileprivate func addBasketClicked() {
-        print("Add Basket Clicked")
+        UserService.shared.addShoppingCart(book: selectedBook!)
+        self.makeInfoAlert(view: self, info: "Ürün Başarıyla Sepenite Eklendi", title: "")
     }
     
     fileprivate func configureBookAuthorLabel() {

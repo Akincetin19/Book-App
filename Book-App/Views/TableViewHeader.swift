@@ -10,10 +10,10 @@ import UIKit
 class TableHeader: UITableViewHeaderFooterView {
     static let identifier = "TableHeader"
     
-    private let label: UILabel = {
+    var label: UILabel = {
        
         let label = UILabel()
-        label.text = "Deneme"
+        label.text = ""
         label.font = .systemFont(ofSize: 30)
         label.textAlignment = .left
         return label
@@ -33,5 +33,4 @@ class TableHeader: UITableViewHeaderFooterView {
         label.sizeToFit()
         label.frame = CGRect(x: 0, y: contentView.frame.size.height-10-label.frame.size.height, width: contentView.frame.size.width, height: label.frame.size.height)
     }
-    
 }
