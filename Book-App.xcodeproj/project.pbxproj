@@ -18,6 +18,7 @@
 		E724ED7729A5846000DE3856 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724ED7629A5846000DE3856 /* AuthService.swift */; };
 		E72D955629AA5D24003DFF1A /* CartBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D955529AA5D24003DFF1A /* CartBook.swift */; };
 		E72D955829AAB587003DFF1A /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D955729AAB587003DFF1A /* ProfileScreen.swift */; };
+		E72D955B29AAD37F003DFF1A /* FavoritedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D955A29AAD37F003DFF1A /* FavoritedScreen.swift */; };
 		E790282529A3C2D30077E881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282429A3C2D30077E881 /* AppDelegate.swift */; };
 		E790282729A3C2D30077E881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282629A3C2D30077E881 /* SceneDelegate.swift */; };
 		E790282929A3C2D30077E881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790282829A3C2D30077E881 /* ViewController.swift */; };
@@ -68,6 +69,7 @@
 		E724ED7629A5846000DE3856 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E72D955529AA5D24003DFF1A /* CartBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartBook.swift; sourceTree = "<group>"; };
 		E72D955729AAB587003DFF1A /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		E72D955A29AAD37F003DFF1A /* FavoritedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedScreen.swift; sourceTree = "<group>"; };
 		E790282129A3C2D30077E881 /* Book-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E790282429A3C2D30077E881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E790282629A3C2D30077E881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				E724ED7029A568A000DE3856 /* LoginScreen.swift */,
 				E7D5BDF829A6DB5900EAE1FF /* CartScreen.swift */,
 				E72D955729AAB587003DFF1A /* ProfileScreen.swift */,
+				E72D955A29AAD37F003DFF1A /* FavoritedScreen.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				E790287229A40E720077E881 /* BookService.swift in Sources */,
 				E7D5BDFF29A6EB7F00EAE1FF /* TableViewHeader.swift in Sources */,
 				E790286629A3E9150077E881 /* Ext+UIView.swift in Sources */,
+				E72D955B29AAD37F003DFF1A /* FavoritedScreen.swift in Sources */,
 				E790282929A3C2D30077E881 /* ViewController.swift in Sources */,
 				E7D5BDFD29A6DD9C00EAE1FF /* CartCell.swift in Sources */,
 				E724ED7129A568A000DE3856 /* LoginScreen.swift in Sources */,

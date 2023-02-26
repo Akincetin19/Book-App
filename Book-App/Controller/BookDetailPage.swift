@@ -163,20 +163,23 @@ class BookDetailPage: UIViewController {
         if(!isFavorited) {
             self.navigationItem.rightBarButtonItem?.image = UIImage(systemName: "heart.fill")
             UserService.shared.addFavoritedBook(book: selectedBook!)
+            self.isFavorited = true
         }
         else{
             self.navigationItem.rightBarButtonItem?.image = UIImage(systemName: "heart")
             UserService.shared.removeFromFavorited(book: selectedBook!)
+            self.isFavorited = false
         }
-        configureFavoritedbutton()
+        
     }
     func configureFavoritedbutton() {
         UserService.shared.isFavorited(book: selectedBook!) { flag in
             if(flag) {
                 self.isFavorited = true
+                self.navigationItem.rightBarButtonItem?.image = UIImage(systemName: "heart.fill")
             }
             else {
-                
+                self.navigationItem.rightBarButtonItem?.image = UIImage(systemName: "heart")
                 self.isFavorited = false
             }
         }

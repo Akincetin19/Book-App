@@ -74,12 +74,12 @@ class UserService {
         
         let favoritedPath = path.document(userUid!).collection("Favorited")
         favoritedPath.document(book.uid!).getDocument { query, error in
-            if let error = error {
+            if error != nil {
                 return
             }
             guard let query = query else {return}
             let data = query.data()
-            guard let data = data else{
+            guard data != nil else{
                 completion(false)
                 return
             }
@@ -91,12 +91,12 @@ class UserService {
         
         let favoritedPath = path.document(userUid!).collection("Favorited")
         favoritedPath.document(book.uid!).getDocument { query, error in
-            if let error = error {
+            if error != nil {
                 return
             }
             guard let query = query else {return}
             let data = query.data()
-            guard let data = data else{
+            guard data != nil else{
                 return
             }
             favoritedPath.document(book.uid!).delete()
@@ -106,5 +106,31 @@ class UserService {
         guard let userUid = userUid else {return}
         let data = ["uid": book.uid,"url": book.Url, "name": book.BookName, "author": book.Author,"bookPrice": book.Price]
         path.document(userUid).collection("Favorited").document(book.uid!).setData(data as [String : Any])
+    }
+    func getFavoritedBooks(completion: @escaping ([Book])->()){
+        
+        var books: [Book] = []
+        
+        let favoritedPath = path.document(userUid!).collection("Favorited")
+        favoritedPath.getDocuments { query, error in
+            if error != nil {
+                return
+            }
+            guard let query = query else {return}
+            
+            let data = query.documents
+            
+            data.forEach { item in
+                var book = Book()
+                book.uid = item["uid"] as? String
+                book.BookName = item["name"] as? String
+                book.Author = item["author"] as? String
+                book.Url = item["url"] as? String
+                book.Price = item["bookPrice"] as? String
+                
+                books.append(book)
+            }
+            completion(books)
+        }
     }
 }
