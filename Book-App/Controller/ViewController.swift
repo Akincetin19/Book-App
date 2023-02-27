@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setupView()
         title = "Ana Sayfa"
-        //writeFirebase()
         getBooks()
         setupCollectionView()
         setupSelectBookObserver()
@@ -74,41 +73,5 @@ class ViewController: UIViewController {
             }
         }
     }
-    
-    /*
-    func loadJson(filename fileName: String) -> [Book]? {
-        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
-            do {
-                let data = try Data(contentsOf: url)
-                let decoder = JSONDecoder()
-                let jsonData = try decoder.decode(Books.self, from: data)
-                return jsonData.books
-            } catch {
-                print("error:\(error)")
-            }
-        }
-        return nil
-    }
-    func writeFirebase() {
-        let books = loadJson(filename: "data")
-        
-        let firebase = Firestore.firestore().collection("Books")
-        
-        
-        books?.forEach({ book in
-            let uid = UUID().uuidString
-            let data = ["bookName" : book.BookName,
-                        "kind": book.Kind,
-                        "author" : book.Author,
-                        "bookDescription" : book.Description,
-                        "bookPrice" : book.Price,
-                        "imageUrl" : book.Url,
-                        "uid": uid,
-                        "category": book.Category]
-            firebase.addDocument(data: data)
-        })
-    }
-     */
-     
 }
 

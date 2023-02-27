@@ -15,14 +15,23 @@ class CategoryScreen: UIViewController {
     
     private let scrollView = UIScrollView(frame: .zero)
     var buttons:[UIButton] = []
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureView()
+        configureScrollView()
+        configureStackView()
+        createCategoriesButtons()
+    }
+}
+extension CategoryScreen {
+    
+    func configureView() {
         title = "Kategoriler"
         view.backgroundColor = .white
         view.addSubview(scrollView)
+    }
+    func configureScrollView() {
         scrollView.addSubview(stackView)
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -30,12 +39,13 @@ class CategoryScreen: UIViewController {
         scrollView.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         scrollView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        
-        stackView.anchor(top: scrollView.topAnchor, leading: view.leadingAnchor, bottom: scrollView.bottomAnchor, trailing: view.trailingAnchor,
-                         padding: .init(top: 15, left: 16, bottom: 16, right: 16))
-        
+    }
+    func configureStackView() {
+        stackView.anchor(top: scrollView.topAnchor, leading: view.leadingAnchor, bottom: scrollView.bottomAnchor, trailing: view.trailingAnchor,padding: .init(top: 15, left: 16, bottom: 16, right: 16))
         stackView.axis = .vertical
         stackView.spacing = 20
+    }
+    func createCategoriesButtons() {
         bookService.getCategories {[weak self] result in
             
             guard let self = self else{return}
@@ -51,6 +61,7 @@ class CategoryScreen: UIViewController {
             }
         }
     }
+    
     @objc fileprivate func categoryButtonClicked(button: UIButton) {
         
         let category = button.titleLabel?.text
@@ -73,4 +84,6 @@ class CategoryScreen: UIViewController {
         return button
         
     }
+    
 }
+
