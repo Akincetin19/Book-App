@@ -29,14 +29,30 @@ class ProfileScreen: UIViewController {
     fileprivate var books: [Book] = []
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         getBooks()
         setView()
         setButtons()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Çıkış Yap", style: .plain, target: self, action: #selector(logOut))
 
     }
 }
 extension ProfileScreen {
+    
+    @objc func logOut() {
+        let result = try? AuthService.shared.logOut()
+        guard let result = result else {return}
+        if result{
+            let vc = LoginScreen()
+            vc.modalPresentationStyle = .fullScreen
+            present(vc, animated: true)
+        }
+        else {
+            self.makeInfoAlert(view: self, info: "Hata Meydana Geldi", title: "")
+        }
+    }
     
     func setView() {
         view.addSubview(lineView)
@@ -60,6 +76,7 @@ extension ProfileScreen {
         let userInfoButton = createButton(title: "Kişisel Bilgilerim")
         view.addSubview(userInfoButton)
         userInfoButton.anchor(top: favoritedButton.bottomAnchor, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor, padding: .init(top: 16, left: 16, bottom: 0, right: 16), size: .init(width: 0, height: 50))
+        userInfoButton.addTarget(self, action: #selector(goToUserInfoScreen), for: .touchUpInside)
     }
     
     func getBooks() {
@@ -80,5 +97,9 @@ extension ProfileScreen {
     @objc func goToFavoritedScreen() {
         let vc = FavoritedScreen()
         navigationController?.pushViewController(vc, animated: true)
+    }
+    @objc func goToUserInfoScreen() {
+        let vc = UserInfoScreen()
+        navigationController?.pushViewController(vc, animated: false)
     }
 }

@@ -10,9 +10,9 @@ import Foundation
 struct User {
     
     
-    let name: String
-    let surname: String
-    let email: String
+    var name: String
+    var surname: String
+    var email: String
     
     init( name: String, surname: String, email: String) {
         

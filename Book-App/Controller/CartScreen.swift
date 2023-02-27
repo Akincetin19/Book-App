@@ -22,6 +22,10 @@ class CartScreen: UIViewController {
         
         self.tableView.bindIsUserCreateNewOrder.bind {[weak self] bool in
             guard let self = self else {return}
+            guard bool == true else {
+                self.makeInfoAlert(view: self, info: "Lütden Sepetinize Ürün Ekleyin", title: "")
+                return
+            }
             self.makeInfoAlert(view: self
                                , info: "Ana Sayfaya Yönlendiriliyorsunuz"
                                , title: " Siparişiniz Başarıyla Oluşturuldu")

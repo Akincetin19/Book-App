@@ -58,9 +58,11 @@ class FavoritedScreen: UIViewController {
     fileprivate func addBasketButtonClickedFromCollectionViewCell() {
         collectionView.bindBook.bind {[weak self] book in
             guard let self = self, let book = book else {return}
+            
             UserService.shared.addShoppingCart(book: book)
             self.makeInfoAlert(view: self, info: "", title: "Ürün Sepetinize Eklendi")
             
         }
+        
     }
 }

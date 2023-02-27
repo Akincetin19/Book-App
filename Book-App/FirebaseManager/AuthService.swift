@@ -13,7 +13,7 @@ class AuthService {
     let authPath = Auth.auth()
     let firebase = Firestore.firestore()
     
-    static var shared = AuthService()
+    static let shared = AuthService()
     
     private init(){}
     func signIn(user: User, password: String, completion: @escaping (Error) ->()) {
@@ -42,5 +42,15 @@ class AuthService {
             }
         }
     }
-    
+    func logOut() throws -> Bool{
+        
+        do{
+           try authPath.signOut()
+            return true
+        }
+        catch {
+            return false
+        }
+       
+    }
 }

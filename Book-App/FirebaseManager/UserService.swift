@@ -63,12 +63,15 @@ class UserService {
     }
     func createNewOrder(books: [CartBook] , totalPrice: Int) {
             
+        var totalOrderBookCount: Int = 0
         let uid = UUID().uuidString
         books.forEach { book in
             let data = ["uid": book.uid,"url": book.url, "name": book.name, "author": book.author, "count": book.count, "bookPrice": book.bookPrice]
             path.document(userUid!).collection("Orders").document(uid).collection("Books").addDocument(data: data as [String : Any])
             path.document(userUid!).collection("Shopping-Cart").document(book.uid!).delete()
+            totalOrderBookCount += Int(book.count!)!
         }
+        path.document(userUid!).collection("Orders").document(uid).setData(["totalOrderBookCount": totalOrderBookCount, "Date": Date(), "totalPrice": totalPrice])
     }
     func isFavorited(book: Book, completion: @escaping (Bool) -> ()) {
         
@@ -104,7 +107,7 @@ class UserService {
     }
     func addFavoritedBook(book: Book) {
         guard let userUid = userUid else {return}
-        let data = ["uid": book.uid,"url": book.Url, "name": book.BookName, "author": book.Author,"bookPrice": book.Price]
+        let data = ["uid": book.uid,"url": book.Url, "name": book.BookName, "author": book.Author,"bookPrice": book.Price, "description": book.Description]
         path.document(userUid).collection("Favorited").document(book.uid!).setData(data as [String : Any])
     }
     func getFavoritedBooks(completion: @escaping ([Book])->()){
@@ -127,10 +130,55 @@ class UserService {
                 book.Author = item["author"] as? String
                 book.Url = item["url"] as? String
                 book.Price = item["bookPrice"] as? String
+                book.Description = item["description"] as? String
                 
                 books.append(book)
             }
             completion(books)
         }
+    }
+    func getUserInfo(completion: @escaping (Result<User, Error>)->()) {
+        
+        var user = User(name: "", surname: "", email: "")
+        path.document(userUid!).getDocument { query, error in
+            
+            if let error = error {
+                
+                completion(.failure(error))
+                return
+            }
+            guard let query = query else {
+                return
+            }
+            guard let data = query.data() else {return}
+            
+            let name = data["name"]
+            let surname = data["surname"]
+            let email = data["email"]
+            
+            user.name = name as! String
+            user.email = email as! String
+            user.surname = surname as! String
+            
+            completion(.success(user))
+                    
+        }
+    }
+    func updateUserInfo(user: User, completion: @escaping (Result<String, Error>)->()) {
+        
+        Auth.auth().currentUser?.updateEmail(to: user.email, completion: { error in
+            if let error = error{
+                completion(.failure(error))
+                return
+            }
+            self.path.document(self.userUid!).setData(["email": user.email, "name": user.name, "surname": user.surname]) { error in
+                if let error = error{
+                    completion(.failure(error))
+                    return
+                }
+                completion(.success("Bilgileriniz Başarıyla Güncellendi"))
+            }
+        })
+        
     }
 }

@@ -80,6 +80,10 @@ extension CartTableView: UITableViewDelegate, UITableViewDataSource {
         footer?.totalPriceLabel.text = "\(totalPrice) TL"
         footer?.bindIsClicked.bind(observer: {[weak self] bool in
             guard let self = self else {return}
+            guard self.books.count > 0 else {
+                self.bindIsUserCreateNewOrder.value = false
+                return
+            }
             UserService.shared.createNewOrder(books: self.books, totalPrice: totalPrice)
             self.bindIsUserCreateNewOrder.value = true
         })

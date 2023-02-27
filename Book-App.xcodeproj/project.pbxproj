@@ -55,6 +55,7 @@
 		E7D5BDFD29A6DD9C00EAE1FF /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDFC29A6DD9C00EAE1FF /* CartCell.swift */; };
 		E7D5BDFF29A6EB7F00EAE1FF /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BDFE29A6EB7F00EAE1FF /* TableViewHeader.swift */; };
 		E7D5BE0129A6EB9900EAE1FF /* TableViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BE0029A6EB9900EAE1FF /* TableViewFooter.swift */; };
+		E7EDB7B429ACA09700099A1E /* UserInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EDB7B329ACA09700099A1E /* UserInfoScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		E7D5BDFC29A6DD9C00EAE1FF /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
 		E7D5BDFE29A6EB7F00EAE1FF /* TableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
 		E7D5BE0029A6EB9900EAE1FF /* TableViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFooter.swift; sourceTree = "<group>"; };
+		E7EDB7B329ACA09700099A1E /* UserInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				E7D5BDF829A6DB5900EAE1FF /* CartScreen.swift */,
 				E72D955729AAB587003DFF1A /* ProfileScreen.swift */,
 				E72D955A29AAD37F003DFF1A /* FavoritedScreen.swift */,
+				E7EDB7B329ACA09700099A1E /* UserInfoScreen.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				E7D5BDFB29A6DC9F00EAE1FF /* CartTableView.swift in Sources */,
 				E724ED6D29A5385800DE3856 /* AuthorDetailScreen.swift in Sources */,
 				E7D5BE0129A6EB9900EAE1FF /* TableViewFooter.swift in Sources */,
+				E7EDB7B429ACA09700099A1E /* UserInfoScreen.swift in Sources */,
 				E724ED7329A56F7900DE3856 /* CustomTextField.swift in Sources */,
 				E790287429A422860077E881 /* BookDetailPage.swift in Sources */,
 				E790286A29A409F20077E881 /* Book.swift in Sources */,
